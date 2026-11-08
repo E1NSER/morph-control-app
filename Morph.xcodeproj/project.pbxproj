@@ -1,0 +1,184 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 60;
+    objects = {
+/* Begin PBXBuildFile section */
+        A10000000000000000000001 /* MorphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011; };
+        A10000000000000000000002 /* LampPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012; };
+        A10000000000000000000003 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013; };
+        A10000000000000000000004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014; };
+        A10000000000000000000005 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015; };
+        A10000000000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016; };
+        A10000000000000000000007 /* Solarmorph-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017; };
+        A10000000000000000000008 /* THIRD_PARTY_NOTICES.md in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018; };
+        A10000000000000000000009 /* PRIVACY.md in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000019; };
+        A1000000000000000000000A /* MorphCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000060; };
+        A1000000000000000000000B /* MorphServices in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000061; };
+        A1000000000000000000000C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001D; };
+        A20000000000000000000001 /* LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011; };
+        A20000000000000000000002 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021; };
+        A20000000000000000000003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022; };
+        A20000000000000000000004 /* PRIVACY.en.md in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016; };
+        A30000000000000000000001 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A30000000000000000000011; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+        A10000000000000000000011 /* MorphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphApp.swift; sourceTree = "<group>"; };
+        A10000000000000000000012 /* LampPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampPanel.swift; sourceTree = "<group>"; };
+        A10000000000000000000013 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+        A10000000000000000000014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+        A10000000000000000000015 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+        A10000000000000000000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        A10000000000000000000017 /* Solarmorph-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Solarmorph-LICENSE.txt"; sourceTree = "<group>"; };
+        A10000000000000000000018 /* THIRD_PARTY_NOTICES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = THIRD_PARTY_NOTICES.md; sourceTree = "<group>"; };
+        A10000000000000000000019 /* PRIVACY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRIVACY.md; sourceTree = "<group>"; };
+        A1000000000000000000001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A1000000000000000000001B /* Morph.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Morph.entitlements; sourceTree = "<group>"; };
+        A1000000000000000000001C /* MorphControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorphControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A1000000000000000000001D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+        A20000000000000000000011 /* LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSettings.swift; sourceTree = "<group>"; };
+        A20000000000000000000012 /* de Localizable */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+        A20000000000000000000013 /* en Localizable */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+        A20000000000000000000014 /* de InfoPlist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+        A20000000000000000000015 /* en InfoPlist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+        A20000000000000000000016 /* PRIVACY.en.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRIVACY.en.md; sourceTree = "<group>"; };
+        A30000000000000000000011 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+/* Begin PBXVariantGroup section */
+        A20000000000000000000021 /* Localizable.strings */ = {isa = PBXVariantGroup; children = (A20000000000000000000012, A20000000000000000000013, ); name = Localizable.strings; sourceTree = "<group>"; };
+        A20000000000000000000022 /* InfoPlist.strings */ = {isa = PBXVariantGroup; children = (A20000000000000000000014, A20000000000000000000015, ); name = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXVariantGroup section */
+/* Begin PBXFrameworksBuildPhase section */
+        A10000000000000000000022 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000A, A1000000000000000000000B, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+        A10000000000000000000025 = {isa = PBXGroup; children = (A10000000000000000000026, A30000000000000000000011, A10000000000000000000028, ); sourceTree = "<group>"; };
+        A10000000000000000000026 /* Morph */ = {isa = PBXGroup; children = (A10000000000000000000011, A10000000000000000000012, A10000000000000000000013, A10000000000000000000014, A10000000000000000000015, A20000000000000000000011, A10000000000000000000027, A1000000000000000000001A, A1000000000000000000001B, ); path = Morph; sourceTree = "<group>"; };
+        A10000000000000000000027 /* Resources */ = {isa = PBXGroup; children = (A10000000000000000000016, A10000000000000000000017, A10000000000000000000018, A10000000000000000000019, A1000000000000000000001D, A20000000000000000000016, A20000000000000000000021, A20000000000000000000022, ); path = Resources; sourceTree = "<group>"; };
+        A10000000000000000000028 /* Products */ = {isa = PBXGroup; children = (A1000000000000000000001C, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+        A10000000000000000000030 /* Morph */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = A10000000000000000000051;
+            buildPhases = (A10000000000000000000020, A10000000000000000000022, A10000000000000000000021, );
+            buildRules = ();
+            dependencies = ();
+            name = Morph;
+            packageProductDependencies = (A10000000000000000000060, A10000000000000000000061, );
+            productName = MorphControl;
+            productReference = A1000000000000000000001C;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+        A10000000000000000000031 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {BuildIndependentTargetsInParallel = YES; LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700; TargetAttributes = {A10000000000000000000030 = {CreatedOnToolsVersion = 27.1; ProvisioningStyle = Manual; }; }; };
+            buildConfigurationList = A10000000000000000000050;
+            compatibilityVersion = "Xcode 15.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (de, en, Base, );
+            mainGroup = A10000000000000000000025;
+            packageReferences = (A10000000000000000000062, );
+            productRefGroup = A10000000000000000000028;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (A10000000000000000000030, );
+        };
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+        A10000000000000000000021 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000C, A20000000000000000000002, A20000000000000000000003, A20000000000000000000004, A30000000000000000000001, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+        A10000000000000000000020 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A20000000000000000000001, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+        A10000000000000000000040 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)", ); MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+        A10000000000000000000041 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; GCC_C_LANGUAGE_STANDARD = gnu17; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+        A10000000000000000000042 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+            ARCHS = arm64;
+            ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+            CODE_SIGN_ENTITLEMENTS = Morph/Morph.entitlements;
+            CODE_SIGN_IDENTITY = "-";
+            CODE_SIGN_STYLE = Manual;
+            COMBINE_HIDPI_IMAGES = YES;
+            CURRENT_PROJECT_VERSION = 14;
+            DEVELOPMENT_TEAM = "";
+            ENABLE_HARDENED_RUNTIME = YES;
+            GENERATE_INFOPLIST_FILE = NO;
+            INFOPLIST_FILE = Morph/Info.plist;
+            LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", );
+            MACOSX_DEPLOYMENT_TARGET = 13.0;
+            MARKETING_VERSION = 0.2.9;
+            PRODUCT_BUNDLE_IDENTIFIER = local.morph.preview;
+            PRODUCT_NAME = MorphControl;
+            SUPPORTED_PLATFORMS = macosx;
+            SWIFT_EMIT_LOC_STRINGS = YES;
+            SWIFT_VERSION = 5.0;
+        }; name = Debug; };
+        A10000000000000000000043 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+            ARCHS = arm64;
+            ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+            CODE_SIGN_ENTITLEMENTS = Morph/Morph.entitlements;
+            CODE_SIGN_IDENTITY = "Apple Development";
+            CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+            CODE_SIGN_STYLE = Manual;
+            COMBINE_HIDPI_IMAGES = YES;
+            CURRENT_PROJECT_VERSION = 14;
+            DEVELOPMENT_TEAM = "$(MORPH_LOCAL_TEAM)";
+            ENABLE_HARDENED_RUNTIME = YES;
+            GENERATE_INFOPLIST_FILE = NO;
+            INFOPLIST_FILE = Morph/Info.plist;
+            LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", );
+            MACOSX_DEPLOYMENT_TARGET = 13.0;
+            MARKETING_VERSION = 0.2.9;
+            PRODUCT_BUNDLE_IDENTIFIER = local.morph.app;
+            PRODUCT_NAME = MorphControl;
+            SUPPORTED_PLATFORMS = macosx;
+            SWIFT_EMIT_LOC_STRINGS = YES;
+            SWIFT_VERSION = 5.0;
+        }; name = Release; };
+        A10000000000000000000044 /* Store */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; GCC_C_LANGUAGE_STANDARD = gnu17; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Store; };
+        A10000000000000000000045 /* Store */ = {isa = XCBuildConfiguration; buildSettings = {
+            ARCHS = arm64;
+            ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+            CODE_SIGN_ENTITLEMENTS = Morph/Morph.entitlements;
+            CODE_SIGN_IDENTITY = "$(MORPH_STORE_SIGN_IDENTITY)";
+            CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+            ENABLE_TESTABILITY = NO;
+            GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+            CODE_SIGN_STYLE = Manual;
+            COMBINE_HIDPI_IMAGES = YES;
+            CURRENT_PROJECT_VERSION = 14;
+            DEVELOPMENT_TEAM = "$(MORPH_STORE_TEAM)";
+            ENABLE_HARDENED_RUNTIME = YES;
+            GENERATE_INFOPLIST_FILE = NO;
+            INFOPLIST_FILE = Morph/Info.plist;
+            LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", );
+            MACOSX_DEPLOYMENT_TARGET = 13.0;
+            MARKETING_VERSION = 0.2.9;
+            PRODUCT_BUNDLE_IDENTIFIER = "$(MORPH_STORE_BUNDLE_ID)";
+            PRODUCT_NAME = MorphControl;
+            SUPPORTED_PLATFORMS = macosx;
+            SWIFT_EMIT_LOC_STRINGS = YES;
+            SWIFT_VERSION = 5.0;
+        }; name = Store; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+        A10000000000000000000050 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000040, A10000000000000000000041, A10000000000000000000044, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000051 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000042, A10000000000000000000043, A10000000000000000000045, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+/* Begin XCLocalSwiftPackageReference section */
+        A10000000000000000000062 /* XCLocalSwiftPackageReference "Packages/MorphKit" */ = {isa = XCLocalSwiftPackageReference; relativePath = Packages/MorphKit; };
+/* End XCLocalSwiftPackageReference section */
+/* Begin XCSwiftPackageProductDependency section */
+        A10000000000000000000060 /* MorphCore */ = {isa = XCSwiftPackageProductDependency; productName = MorphCore; };
+        A10000000000000000000061 /* MorphServices */ = {isa = XCSwiftPackageProductDependency; productName = MorphServices; };
+/* End XCSwiftPackageProductDependency section */
+    };
+    rootObject = A10000000000000000000031 /* Project object */;
+}
